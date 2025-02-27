@@ -1,0 +1,13 @@
+Algorithme : somme des puissances de 10
+variables nombre,i,somme : entier;
+
+debut
+  somme <-- 0;
+  afficher ("sasir un nombre : ");
+  saisir (nombre);
+  pour (i<--0;i<=nombre;i++) faire
+    somme <-- somme + pow(10,i);
+  finpour
+  afficher ("la somme des puissance de 10 est ",somme);
+  
+fin

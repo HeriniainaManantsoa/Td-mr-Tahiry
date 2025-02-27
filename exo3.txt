@@ -1,0 +1,18 @@
+Algorithme : echange de valeur
+variables nombre1,nombre2,nombre3,stockage : reel;
+
+debut
+
+  afficher ("Saisir trois nombres :\nnombre1 = ");
+  saisir (nombre1);
+  afficher ("nombre2 = ");
+  saisir (nombre2);
+  afficher ("nombre3 = ");
+  saisir (nombre3);
+  stockage <-- nombre1;
+  nombre1  <-- nombre2;
+  nombre2 <-- nombre3;
+  nombre3 <-- stockage;
+  afficher ("Apres echange :\nnombre1 = ",nombre1,"\nnombre2 = ",nombre2,"\nnombre3 = ",nombre3,"\n");
+  
+fin

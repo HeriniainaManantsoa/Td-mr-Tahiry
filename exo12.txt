@@ -1,0 +1,13 @@
+Algorithme : somme des N premiers entiers
+variables nombre,i,somme : entier;
+
+debut
+  somme <-- 0;
+  afficher ("Saisir un nombre : ");
+  saisir (nombre);
+  pour (i<--1;i<=nombre;i++) faire
+    somme <-- somme + i;
+  finpour
+   ("la somme est ",somme);
+  
+fin

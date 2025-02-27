@@ -1,0 +1,20 @@
+Algorithme : maximum de trois valeurs
+variables nombre1,nombre2,nombre3,MAXIMUM : reel;
+
+debut
+  afficher ("Saisir trois nombres :\nnombre1 = ");
+  saisir (nombre1);
+  MAXIMUM <-- nombre1;
+  afficher ("nombre2 = ");
+  saisir (nombre2);
+  si (nombre2>MAXIMUM) alors
+    MAXIMUM <-- nombre2;
+  finsi
+  afficher ("nombre3 = ");
+  saisir (nombre3);
+  si (nombre3>MAXIMUM) alors
+    MAXIMUM <-- nombre3;
+  finsi
+  printf ("Le maximum est ",MAXIMUM,"\n");
+  
+fin

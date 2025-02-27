@@ -1,0 +1,16 @@
+Algorithme : somme des factoriels
+int nombre,i,somme,factorielle : entier;
+
+debut
+  somme <-- 0;
+  factorielle <--- 1 ;
+  afficher ("sasir un nombre : ");
+  saisir (nombre);
+  pour (i<--1;i<=nombre;i++) faire
+  {
+    factorielle <-- factorielle*i;
+    somme <-- somme + factorielle;
+  }
+  afficher ("la somme des factorielle est ",somme);
+ 
+fin

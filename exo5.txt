@@ -1,0 +1,33 @@
+Algorithme : equation du second degree
+variables a,b,c,delta,x1,x2 : reel;
+
+debut  
+  afficher ("saisir les coefficients :\na= ");
+  saisir (a);
+  printf ("b = ");
+  saisir (b);
+  printf ("c = ");
+  saisir (c);
+  delta <-- ((b*b)-(4*a*c));
+  si (a==0) alors
+       x1 <-- (-b)/(2*a);
+       afficher ("la solution est : ",x1);
+  sinon
+     si (delta > 0) alors
+         delta <-- sqrt(delta);
+         x1 <-- (-b+delta)/(2*a);
+         x2 <-- (-b-delta)/(2*a);
+         afficher ("Les solutions sont : ",x1," et ",x2,"\n");
+         sinon si (delta==0) alors
+            x1 <-- (-b)/(2*a);
+            afficher ("La solution est : ",x1,"\n");
+         sinon
+            delta <-- sqrt(-delta);
+            x1 <-- (-b)/(2*a);
+            x2 <-- (delta)/(2*a);
+            afficher ("Les solutions sont : ",x1," + ",x2,"i et ",x1," - ",x2,"i\n");
+         finsi
+     finsi
+  finsi   
+  
+fin

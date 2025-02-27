@@ -1,0 +1,23 @@
+Algorithme : pgcd de deux entiers
+variables a,b,c,diviseur,dividande,reste : entier;
+
+debut
+  afficher ("saisir deux entiers :\nnombre1 = ");
+  saisir (a);
+  afficher ("nombre2 = ");
+  saisir (b);
+  dividande <-- b;
+  diviseur <-- a;
+  si (a>b) alors
+    dividande <--  a;
+    diviseur <-- b;
+  finsi
+  reste <-- 1;
+  tantque (reste != 0) faire
+    reste <-- dividande%diviseur;
+    dividande <-- diviseur;
+    diviseur <-- reste;
+  fintantque
+  afficher ("le pgcd est ",dividande);
+    
+fin

@@ -1,0 +1,15 @@
+Algorithme : produit positif ou negatif
+variables nombre1,nombre2 : reel;
+
+debut
+  afficher ("Saisi deux nombres :\nnombre1 =  ");
+  sasir (nombre1);
+  afficher ("nombre2 = ");
+  saisir (nombre2);
+  si (((nombre1<0) && (nombre2<0)) || ((nombre1>0) && (nombre2>0))) alors
+    afficher ("Le produit des deux nombres est positif\n");
+  sinon
+    afficher ("Le produit des deux nombres est negatif\n");
+  finsi
+  
+fin

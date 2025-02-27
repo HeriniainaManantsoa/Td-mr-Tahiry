@@ -1,0 +1,11 @@
+Algorithme : nombre 1 jusqu'a N
+variables nombre,i : entier;
+
+debut
+  afficher ("Saisir un nombre : ");
+  saisir (nombre);
+  pour (i<--1;i<=nombre;i++) faire
+    afficher (i," ");
+  finpour
+ 
+fin

@@ -1,0 +1,11 @@
+Algorithme : nombre pair entre 1 et N
+int nombre,i : entier;
+
+debut
+  afficher ("Saisir un nommbre : ");
+  saisir (nombre);
+  pour (i<--2;i<=nombre;i<--(i+2)) faire
+    afficher (i," ");
+  finpour
+  
+fin

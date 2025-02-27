@@ -1,0 +1,13 @@
+Algorithme : somme des inverses des entiers de 1 jusqu'a N
+variables nombre,i,somme : reel;
+
+debut
+  somme <-- 0;
+  afficher ("sasir un nombre : ");
+  saisir (nombre);
+  pour (i<--1;i<=nombre;i++) faire
+    somme <-- somme + 1/i;
+  finpour
+  afficher ("la somme des inverses est ",somme);
+  
+fin

@@ -1,0 +1,13 @@
+Algorithme : somme et moyenne de deux notes
+variables note1,note2,somme,moyenne : reel;
+
+debut
+  afficher ("Saisir deux notes :\nnote1 = ");
+  saisir (note1);
+  afficher ("note2 = ");
+  saisir (note2);
+  somme <-- (note1+note2);
+  moyenne <-- (somme/2);
+  afficher ("la somme des deux notes est ",somme,"\nla moyenne est ",moyenne,"\n");
+  
+fin

@@ -1,0 +1,15 @@
+Algorithme : nombre positif ou negatif
+variables nombre : reel;
+
+debut
+   afficher ("Saisir un nombre : ");
+   saisir (nombre);
+   si (nombre<0) alors
+     afficher ("Le nombre ",nombre," est negatif\n");
+   sinon
+     afficher ("Le nombre ",nombre," est positif\n");
+   finsi
+  
+fin
+
+

@@ -1,0 +1,13 @@
+Algorithme : factoriel de N
+variables nombre,i,factoriel : entier;
+
+debut
+  factoriel <-- 1;
+  afficher ("saisir un nombre : ");
+  saisir (nombre);
+  pour (i<--1;i<=nombre;i++) faire
+    factorielle <-- factorielle*i;
+  finpour
+  afficher (nombre"! = ",factoriel,"\n");
+  
+fin
